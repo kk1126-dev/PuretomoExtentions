@@ -1,0 +1,49 @@
+/* 画像キャプチャ時に正常に適用されないので廃止
+.captureBtn {
+    width: 114px;
+    height: 26px;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    color: #f0a0b1;
+    background-color: #fff;
+    border: 2px solid #f0a0b1;
+}
+
+    .captureBtn:hover,
+    .captureBtn:active {
+        color: #fff;
+        background-color: #bee562;
+        border: 2px solid #bee562;
+    }
+*/
+
+/* ============================================================
+   交換所ボタン
+   ============================================================ */
+.searchBazar {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+    padding: 3px 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f0a0b1;
+    border: 2px solid #f0a0b1;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.searchBazar:hover,
+.searchBazar:active {
+    background-color: #e0809a;
+    border-color: #e0809a;
+}
