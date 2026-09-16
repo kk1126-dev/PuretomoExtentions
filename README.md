@@ -21,9 +21,9 @@
 
 ## 機能
 
-### 📸 プロフィールキャプチャ
+### 📸 みんなのコーデの画像保存機能
 
-- 他ユーザーのプロフィール詳細エリアを **PNG 画像としてワンクリック保存**
+- 他ユーザーのみんなのコーデを **PNG 画像としてワンクリック保存**
 - ファイル名はメンバー ID + タイムスタンプで自動生成  
   例: `MEMBER123_20260915_211220.png`
 
@@ -91,9 +91,7 @@ npm run build
 |------|-----------|
 | ビルドツール | [Vite](https://vite.dev/) |
 | Chrome 拡張ビルドプラグイン | [@crxjs/vite-plugin](https://crxjs.dev/vite-plugin) |
-| DOM キャプチャ | [html2canvas](https://html2canvas.hertzen.com/) |
-| スクリーンショット | [modern-screenshot](https://github.com/qq15725/modern-screenshot) |
-
+| DOM キャプチャ・スクリーンショット | [html2canvas](https://html2canvas.hertzen.com/) |
 ---
 
 ## ファイル構成
